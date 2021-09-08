@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Infinity fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+
+   
+
+ 
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('bg.jpg');
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 33px;
+        top: 020px;
+
+    }
+
+    .left img {
+        width: 72px;
+height: 70px;
+        padding: 0px 38px;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 1px;
+        font-size: 22px;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 5px auto;
+
+        /* border: 2px solid white; */
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: -20px;
+        /* border: 2px solid rgb(116, 233, 116); */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        font-size: 20px;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 33px 17px;
+    }
+
+    .navbar LI a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 30px 10px;
+        background-color: rgb(17, 108, 182);
+        color: white;
+        padding: 10px 35px;
+        border: 4px solid gray;
+        border-radius: 10px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: gray;
+        text-decoration: none;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 89px 41px;
+        padding: 75px;
+        width: 30%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 408px;
+        padding: 8px;
+        border: 2px solid black;
+        margin: 12px auto;
+        font-size: 20px;
+        border-radius: 6px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 100%;
+        margin: auto;
+        padding: 6px 20px;
+    }
+footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(17, 108, 182);
+    color: white
+}
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="nike.png" alt=" ">
+            <div>Infinity Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Timing</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym in Nashik</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+    <footer> All rights reserved @ Infinity fitness.</footer>
+</body>
+
+
+</html>
